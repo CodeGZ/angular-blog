@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import './dist/scss/reset.scss';
+@import './dist/scss/variables.scss';
+@import './dist/scss/fonts.scss';
+
+
+body{
+    background-color: #111111;
+    color:white;
+    font-family: 'inter';
+  }
+  
+  a{
+    text-decoration: none;
+  }
